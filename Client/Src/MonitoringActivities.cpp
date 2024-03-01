@@ -88,8 +88,6 @@ int WINAPI WinMain(
     AddToReg();
     SetConsoleOutputCP(CP_UTF8);
 
-    std::chrono::high_resolution_clock::time_point prevTimePoint = std::chrono::high_resolution_clock::now();
-
     WSADATA wsaData;
     if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) { return 1; }
 
