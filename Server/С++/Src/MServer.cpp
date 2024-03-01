@@ -75,9 +75,6 @@ public:
 /*                              Main Server Class                            */
 /*****************************************************************************/
 #define DEFAULT_BUFLEN 512
-//#define DEFAULT_PORT "12345"
-//#define DEFAULT_HOST "192.168.0.200"
-
 
 class Server {
 public:
